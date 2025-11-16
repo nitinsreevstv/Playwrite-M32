@@ -1,0 +1,74 @@
+Nov 16, 2025 3:08:30 PM org.example.Login loginDashboard
+INFO: Landed on Website
+Nov 16, 2025 3:08:30 PM org.example.Login loginDashboard
+INFO: Logged In Successfully
+Nov 16, 2025 3:08:30 PM org.example.AddContact newContact
+INFO: Clicking on Sidebar
+Nov 16, 2025 3:08:34 PM org.example.AddContact newContact
+INFO: Now clicking on CRM in Sidebar
+Nov 16, 2025 3:08:35 PM org.example.AddContact newContact
+INFO: Clicking Actions menu
+Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+INFO: Waiting for Edit button to appear
+Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+INFO: Handling Email field
+Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+INFO: Filling Email
+Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+INFO: Filling Location now
+Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+INFO: Now Saving the data
+Nov 16, 2025 3:08:39 PM org.example.LogOut logoutDashboard
+INFO: Clicked on Logout Button
+Nov 16, 2025 3:08:39 PM org.example.LogOut logoutDashboard
+INFO: Screenshot Captured
+Nov 16, 2025 3:08:39 PM org.example.NewAccount fillingDetails
+INFO: Clicking on Sign up button...
+Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
+INFO: Filling basic info...
+Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
+INFO: Using 028abc@abc.com for SignUp
+Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
+INFO: Submitting signup form...
+Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
+INFO: Screenshot after creating profile taken.
+Nov 16, 2025 3:08:40 PM org.example.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: VP / Director
+Nov 16, 2025 3:08:43 PM org.example.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: CRM
+Nov 16, 2025 3:08:44 PM org.example.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: Instagram
+Nov 16, 2025 3:08:44 PM org.example.CRMRegistration signUpCRM
+INFO: Log out the CRM Board
+Nov 16, 2025 3:08:48 PM org.example.LogOut logoutDashboard
+INFO: Clicked on Logout Button
+Nov 16, 2025 3:08:48 PM org.example.LogOut logoutDashboard
+INFO: Screenshot Captured
+Nov 16, 2025 3:08:48 PM org.example.Registration signup
+INFO: Clicking on Sign up button...
+Nov 16, 2025 3:08:48 PM org.example.NewAccount fillingDetails
+INFO: Clicking on Sign up button...
+Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
+INFO: Filling basic info...
+Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
+INFO: Using 813abc@abc.com for SignUp
+Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
+INFO: Submitting signup form...
+Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
+INFO: Screenshot after creating profile taken.
+Nov 16, 2025 3:08:49 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Manager / Team Lead
+Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Chat Agents
+Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Google
+Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Selecting country and filling phone number...
+Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Selecting country: India
+Nov 16, 2025 3:08:53 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Selected country: India
+Nov 16, 2025 3:08:53 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Phone number filled: +919060893225
+Nov 16, 2025 3:08:53 PM org.example.ChatAgentRegistration signUpChatAgent
+INFO: Clicking Let's Go button...
