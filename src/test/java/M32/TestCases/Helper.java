@@ -1,4 +1,4 @@
-package org.example;
+package M32.TestCases;
 import java.util.Random;
 
 public class Helper {

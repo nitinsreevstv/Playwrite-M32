@@ -1,74 +1,238 @@
-Nov 16, 2025 3:08:30 PM org.example.Login loginDashboard
+Nov 17, 2025 7:30:10 PM org.TestCases.Login loginDashboard
 INFO: Landed on Website
-Nov 16, 2025 3:08:30 PM org.example.Login loginDashboard
+Nov 17, 2025 7:30:10 PM org.TestCases.Login loginDashboard
 INFO: Logged In Successfully
-Nov 16, 2025 3:08:30 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:10 PM org.TestCases.AddContact newContact
 INFO: Clicking on Sidebar
-Nov 16, 2025 3:08:34 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:13 PM org.TestCases.AddContact newContact
 INFO: Now clicking on CRM in Sidebar
-Nov 16, 2025 3:08:35 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:13 PM org.TestCases.AddContact newContact
 INFO: Clicking Actions menu
-Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:16 PM org.TestCases.AddContact newContact
 INFO: Waiting for Edit button to appear
-Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:16 PM org.TestCases.AddContact newContact
 INFO: Handling Email field
-Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:16 PM org.TestCases.AddContact newContact
 INFO: Filling Email
-Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:16 PM org.TestCases.AddContact newContact
 INFO: Filling Location now
-Nov 16, 2025 3:08:37 PM org.example.AddContact newContact
+Nov 17, 2025 7:30:16 PM org.TestCases.AddContact newContact
 INFO: Now Saving the data
-Nov 16, 2025 3:08:39 PM org.example.LogOut logoutDashboard
+Nov 17, 2025 7:30:19 PM org.TestCases.Login logoutDashboard
 INFO: Clicked on Logout Button
-Nov 16, 2025 3:08:39 PM org.example.LogOut logoutDashboard
+Nov 17, 2025 7:30:19 PM org.TestCases.Login logoutDashboard
 INFO: Screenshot Captured
-Nov 16, 2025 3:08:39 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:19 PM org.TestCases.NewAccount fillingDetails
 INFO: Clicking on Sign up button...
-Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:20 PM org.TestCases.NewAccount fillingDetails
 INFO: Filling basic info...
-Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
-INFO: Using 028abc@abc.com for SignUp
-Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:20 PM org.TestCases.NewAccount fillingDetails
+INFO: Using 988abc@abc.com for SignUp
+Nov 17, 2025 7:30:20 PM org.TestCases.NewAccount fillingDetails
 INFO: Submitting signup form...
-Nov 16, 2025 3:08:40 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:20 PM org.TestCases.NewAccount fillingDetails
 INFO: Screenshot after creating profile taken.
-Nov 16, 2025 3:08:40 PM org.example.CRMRegistration signUpCRM
+Nov 17, 2025 7:30:20 PM org.TestCases.CRMRegistration signUpCRM
 INFO: Selecting dropdown option: VP / Director
-Nov 16, 2025 3:08:43 PM org.example.CRMRegistration signUpCRM
+Nov 17, 2025 7:30:23 PM org.TestCases.CRMRegistration signUpCRM
 INFO: Selecting dropdown option: CRM
-Nov 16, 2025 3:08:44 PM org.example.CRMRegistration signUpCRM
+Nov 17, 2025 7:30:23 PM org.TestCases.CRMRegistration signUpCRM
 INFO: Selecting dropdown option: Instagram
-Nov 16, 2025 3:08:44 PM org.example.CRMRegistration signUpCRM
+Nov 17, 2025 7:30:24 PM org.TestCases.CRMRegistration signUpCRM
 INFO: Log out the CRM Board
-Nov 16, 2025 3:08:48 PM org.example.LogOut logoutDashboard
+Nov 17, 2025 7:30:27 PM org.TestCases.Login logoutDashboard
 INFO: Clicked on Logout Button
-Nov 16, 2025 3:08:48 PM org.example.LogOut logoutDashboard
+Nov 17, 2025 7:30:28 PM org.TestCases.Login logoutDashboard
 INFO: Screenshot Captured
-Nov 16, 2025 3:08:48 PM org.example.Registration signup
+Nov 17, 2025 7:30:28 PM org.TestCases.Registration signup
 INFO: Clicking on Sign up button...
-Nov 16, 2025 3:08:48 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:28 PM org.TestCases.NewAccount fillingDetails
 INFO: Clicking on Sign up button...
-Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:29 PM org.TestCases.NewAccount fillingDetails
 INFO: Filling basic info...
-Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
-INFO: Using 813abc@abc.com for SignUp
-Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:29 PM org.TestCases.NewAccount fillingDetails
+INFO: Using 340abc@abc.com for SignUp
+Nov 17, 2025 7:30:29 PM org.TestCases.NewAccount fillingDetails
 INFO: Submitting signup form...
-Nov 16, 2025 3:08:49 PM org.example.NewAccount fillingDetails
+Nov 17, 2025 7:30:29 PM org.TestCases.NewAccount fillingDetails
 INFO: Screenshot after creating profile taken.
-Nov 16, 2025 3:08:49 PM org.example.ChatAgentRegistration signUpChatAgent
+Nov 17, 2025 7:30:29 PM org.TestCases.ChatAgentRegistration signUpChatAgent
 INFO: Selecting dropdown option: Manager / Team Lead
-Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+Nov 17, 2025 7:30:31 PM org.TestCases.ChatAgentRegistration signUpChatAgent
 INFO: Selecting dropdown option: Chat Agents
-Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+Nov 17, 2025 7:30:32 PM org.TestCases.ChatAgentRegistration signUpChatAgent
 INFO: Selecting dropdown option: Google
-Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+Nov 17, 2025 7:30:32 PM org.TestCases.ChatAgentRegistration signUpChatAgent
 INFO: Selecting country and filling phone number...
-Nov 16, 2025 3:08:52 PM org.example.ChatAgentRegistration signUpChatAgent
+Nov 17, 2025 7:30:32 PM org.TestCases.ChatAgentRegistration signUpChatAgent
 INFO: Selecting country: India
-Nov 16, 2025 3:08:53 PM org.example.ChatAgentRegistration signUpChatAgent
+Nov 17, 2025 7:30:32 PM org.TestCases.ChatAgentRegistration signUpChatAgent
 INFO: Selected country: India
-Nov 16, 2025 3:08:53 PM org.example.ChatAgentRegistration signUpChatAgent
-INFO: Phone number filled: +919060893225
-Nov 16, 2025 3:08:53 PM org.example.ChatAgentRegistration signUpChatAgent
+Nov 17, 2025 7:30:32 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Phone number filled: +914661125755
+Nov 17, 2025 7:30:32 PM org.TestCases.ChatAgentRegistration signUpChatAgent
 INFO: Clicking Let's Go button...
+Nov 17, 2025 7:30:42 PM org.TestCases.Login logoutDashboard
+INFO: Clicked on Logout Button
+Nov 17, 2025 7:30:42 PM org.TestCases.Login logoutDashboard
+INFO: Screenshot Captured
+Nov 17, 2025 7:34:26 PM org.TestCases.Login loginDashboard
+INFO: Landed on Website
+Nov 17, 2025 7:34:26 PM org.TestCases.Login loginDashboard
+INFO: Logged In Successfully
+Nov 17, 2025 7:34:26 PM org.TestCases.AddContact newContact
+INFO: Clicking on Sidebar
+Nov 17, 2025 7:34:29 PM org.TestCases.AddContact newContact
+INFO: Now clicking on CRM in Sidebar
+Nov 17, 2025 7:34:30 PM org.TestCases.AddContact newContact
+INFO: Clicking Actions menu
+Nov 17, 2025 7:34:33 PM org.TestCases.AddContact newContact
+INFO: Waiting for Edit button to appear
+Nov 17, 2025 7:34:33 PM org.TestCases.AddContact newContact
+INFO: Handling Email field
+Nov 17, 2025 7:34:33 PM org.TestCases.AddContact newContact
+INFO: Email field not found, clicking × button
+Nov 17, 2025 7:34:33 PM org.TestCases.AddContact newContact
+INFO: Filling Location now
+Nov 17, 2025 7:34:33 PM org.TestCases.AddContact newContact
+INFO: Now Saving the data
+Nov 17, 2025 7:34:35 PM org.TestCases.Login logoutDashboard
+INFO: Clicked on Logout Button
+Nov 17, 2025 7:34:35 PM org.TestCases.Login logoutDashboard
+INFO: Screenshot Captured
+Nov 17, 2025 7:34:35 PM org.TestCases.NewAccount fillingDetails
+INFO: Clicking on Sign up button...
+Nov 17, 2025 7:34:36 PM org.TestCases.NewAccount fillingDetails
+INFO: Filling basic info...
+Nov 17, 2025 7:34:36 PM org.TestCases.NewAccount fillingDetails
+INFO: Using 095abc@abc.com for SignUp
+Nov 17, 2025 7:34:36 PM org.TestCases.NewAccount fillingDetails
+INFO: Submitting signup form...
+Nov 17, 2025 7:34:36 PM org.TestCases.NewAccount fillingDetails
+INFO: Screenshot after creating profile taken.
+Nov 17, 2025 7:34:36 PM org.TestCases.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: VP / Director
+Nov 17, 2025 7:34:39 PM org.TestCases.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: CRM
+Nov 17, 2025 7:34:39 PM org.TestCases.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: Instagram
+Nov 17, 2025 7:34:39 PM org.TestCases.CRMRegistration signUpCRM
+INFO: Log out the CRM Board
+Nov 17, 2025 7:34:43 PM org.TestCases.Login logoutDashboard
+INFO: Clicked on Logout Button
+Nov 17, 2025 7:34:43 PM org.TestCases.Login logoutDashboard
+INFO: Screenshot Captured
+Nov 17, 2025 7:34:43 PM org.TestCases.Registration signup
+INFO: Clicking on Sign up button...
+Nov 17, 2025 7:34:43 PM org.TestCases.NewAccount fillingDetails
+INFO: Clicking on Sign up button...
+Nov 17, 2025 7:34:44 PM org.TestCases.NewAccount fillingDetails
+INFO: Filling basic info...
+Nov 17, 2025 7:34:44 PM org.TestCases.NewAccount fillingDetails
+INFO: Using 437abc@abc.com for SignUp
+Nov 17, 2025 7:34:44 PM org.TestCases.NewAccount fillingDetails
+INFO: Submitting signup form...
+Nov 17, 2025 7:34:44 PM org.TestCases.NewAccount fillingDetails
+INFO: Screenshot after creating profile taken.
+Nov 17, 2025 7:34:44 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Manager / Team Lead
+Nov 17, 2025 7:34:47 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Chat Agents
+Nov 17, 2025 7:34:47 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Google
+Nov 17, 2025 7:34:47 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting country and filling phone number...
+Nov 17, 2025 7:34:48 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting country: India
+Nov 17, 2025 7:34:48 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selected country: India
+Nov 17, 2025 7:34:48 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Phone number filled: +919406164439
+Nov 17, 2025 7:34:48 PM org.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Clicking Let's Go button...
+Nov 17, 2025 7:35:00 PM org.TestCases.Login logoutDashboard
+INFO: Clicked on Logout Button
+Nov 17, 2025 7:35:00 PM org.TestCases.Login logoutDashboard
+INFO: Screenshot Captured
+Nov 17, 2025 7:35:01 PM org.setup.SetUp closeBrowser
+INFO: Browser and Playwright closed successfully.
+Nov 17, 2025 7:44:30 PM M32.TestCases.Login loginDashboard
+INFO: Landed on Website
+Nov 17, 2025 7:44:30 PM M32.TestCases.Login loginDashboard
+INFO: Logged In Successfully
+Nov 17, 2025 7:44:30 PM M32.TestCases.AddContact newContact
+INFO: Clicking on Sidebar
+Nov 17, 2025 7:44:33 PM M32.TestCases.AddContact newContact
+INFO: Now clicking on CRM in Sidebar
+Nov 17, 2025 7:44:34 PM M32.TestCases.AddContact newContact
+INFO: Clicking Actions menu
+Nov 17, 2025 7:44:37 PM M32.TestCases.AddContact newContact
+INFO: Waiting for Edit button to appear
+Nov 17, 2025 7:44:37 PM M32.TestCases.AddContact newContact
+INFO: Handling Email field
+Nov 17, 2025 7:44:37 PM M32.TestCases.AddContact newContact
+INFO: Filling Email
+Nov 17, 2025 7:44:37 PM M32.TestCases.AddContact newContact
+INFO: Filling Location now
+Nov 17, 2025 7:44:37 PM M32.TestCases.AddContact newContact
+INFO: Now Saving the data
+Nov 17, 2025 7:44:39 PM M32.TestCases.Login logoutDashboard
+INFO: Clicked on Logout Button
+Nov 17, 2025 7:44:39 PM M32.TestCases.Login logoutDashboard
+INFO: Screenshot Captured
+Nov 17, 2025 7:44:39 PM M32.TestCases.NewAccount fillingDetails
+INFO: Clicking on Sign up button...
+Nov 17, 2025 7:44:40 PM M32.TestCases.NewAccount fillingDetails
+INFO: Filling basic info...
+Nov 17, 2025 7:44:40 PM M32.TestCases.NewAccount fillingDetails
+INFO: Using 445abc@abc.com for SignUp
+Nov 17, 2025 7:44:40 PM M32.TestCases.NewAccount fillingDetails
+INFO: Submitting signup form...
+Nov 17, 2025 7:44:40 PM M32.TestCases.NewAccount fillingDetails
+INFO: Screenshot after creating profile taken.
+Nov 17, 2025 7:44:40 PM M32.TestCases.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: VP / Director
+Nov 17, 2025 7:44:44 PM M32.TestCases.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: CRM
+Nov 17, 2025 7:44:44 PM M32.TestCases.CRMRegistration signUpCRM
+INFO: Selecting dropdown option: Instagram
+Nov 17, 2025 7:44:45 PM M32.TestCases.CRMRegistration signUpCRM
+INFO: Log out the CRM Board
+Nov 17, 2025 7:44:48 PM M32.TestCases.Login logoutDashboard
+INFO: Clicked on Logout Button
+Nov 17, 2025 7:44:49 PM M32.TestCases.Login logoutDashboard
+INFO: Screenshot Captured
+Nov 17, 2025 7:44:49 PM M32.TestCases.Registration signup
+INFO: Clicking on Sign up button...
+Nov 17, 2025 7:44:49 PM M32.TestCases.NewAccount fillingDetails
+INFO: Clicking on Sign up button...
+Nov 17, 2025 7:44:49 PM M32.TestCases.NewAccount fillingDetails
+INFO: Filling basic info...
+Nov 17, 2025 7:44:50 PM M32.TestCases.NewAccount fillingDetails
+INFO: Using 247abc@abc.com for SignUp
+Nov 17, 2025 7:44:50 PM M32.TestCases.NewAccount fillingDetails
+INFO: Submitting signup form...
+Nov 17, 2025 7:44:50 PM M32.TestCases.NewAccount fillingDetails
+INFO: Screenshot after creating profile taken.
+Nov 17, 2025 7:44:50 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Manager / Team Lead
+Nov 17, 2025 7:44:52 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Chat Agents
+Nov 17, 2025 7:44:53 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting dropdown option: Google
+Nov 17, 2025 7:44:53 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting country and filling phone number...
+Nov 17, 2025 7:44:53 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selecting country: India
+Nov 17, 2025 7:44:53 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Selected country: India
+Nov 17, 2025 7:44:53 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Phone number filled: +916961087949
+Nov 17, 2025 7:44:53 PM M32.TestCases.ChatAgentRegistration signUpChatAgent
+INFO: Clicking Let's Go button...
+Nov 17, 2025 7:45:02 PM M32.TestCases.Login logoutDashboard
+INFO: Clicked on Logout Button
+Nov 17, 2025 7:45:03 PM M32.TestCases.Login logoutDashboard
+INFO: Screenshot Captured
+Nov 17, 2025 7:45:03 PM M32.setup.SetUp closeBrowser
+INFO: Browser and Playwright closed successfully.

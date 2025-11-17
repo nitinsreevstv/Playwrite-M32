@@ -1,4 +1,4 @@
-package org.example;
+package M32.TestCases;
 
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
@@ -6,12 +6,12 @@ import com.microsoft.playwright.options.AriaRole;
 import java.nio.file.Paths;
 import java.util.logging.Logger;
 
+import static M32.setup.SetUp.logger;
+
 public class ChatAgentRegistration {
     Page page;
-    private final Logger logger;
-    public ChatAgentRegistration(Page page, Logger logger){
+    public ChatAgentRegistration(Page page){
         this.page = page;
-        this.logger = logger;
     }
     public void signUpChatAgent(){
         try{
@@ -49,6 +49,10 @@ public class ChatAgentRegistration {
             page.getByText("Launch My Chat Agent", new Page.GetByTextOptions().setExact(true)).click();
 
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get(page.title()+".png")));
+            page.locator("svg.lucide-chevron-left").click();
+            Login login = new Login(page);
+            login.logoutDashboard();
+
         }catch (Exception e){
             logger.info("Test failure -------------------------------------> " + e.getMessage());
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("FAILED_" + page.title() + ".png")));

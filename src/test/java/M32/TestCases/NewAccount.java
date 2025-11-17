@@ -1,4 +1,4 @@
-package org.example;
+package M32.TestCases;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
@@ -6,12 +6,12 @@ import com.microsoft.playwright.Page;
 import java.nio.file.Paths;
 import java.util.logging.Logger;
 
+import static M32.setup.SetUp.logger;
+
 public class NewAccount {
     Page page;
-    public final Logger logger;
-    public NewAccount(Page page, Logger logger){
+    public NewAccount(Page page){
         this.page = page;
-        this.logger = logger;
     }
     public void fillingDetails(){
         try{

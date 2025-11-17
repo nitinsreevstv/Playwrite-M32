@@ -1,4 +1,4 @@
-package org.example;
+package M32.TestCases;
 import io.github.cdimascio.dotenv.Dotenv;
 
 public class Config {

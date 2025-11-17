@@ -1,4 +1,4 @@
-package org.example;
+package M32.TestCases;
 
 /**
  * Hello world!

@@ -1,16 +1,14 @@
-package org.example;
+package M32.TestCases;
 
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import java.nio.file.Paths;
-import java.util.logging.Logger;
+import static M32.setup.SetUp.logger;
 
 public class CRMRegistration {
     Page page;
-    private final Logger logger;
-    public CRMRegistration(Page page, Logger logger){
+    public CRMRegistration(Page page){
         this.page = page;
-        this.logger = logger;
     }
 
     public void signUpCRM(){
@@ -23,7 +21,7 @@ public class CRMRegistration {
             }
             page.locator("button:has-text('Continue')").click();
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get(page.title()+".png")));
-            LogOut logout = new LogOut(page,logger);
+            Login logout = new Login(page);
             logger.info("Log out the CRM Board");
             logout.logoutDashboard();
         }catch (Exception e){

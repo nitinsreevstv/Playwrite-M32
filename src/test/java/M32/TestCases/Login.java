@@ -1,18 +1,19 @@
-package org.example;
+package M32.TestCases;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.AriaRole;
+
 import java.nio.file.Paths;
-import java.util.logging.Logger;
 import java.util.regex.Pattern;
+
+import static M32.setup.SetUp.logger;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class Login {
-    private final Logger logger;
     Page page;
-    public Login(Page page, Logger logger) {
+    public Login(Page page) {
         this.page = page;
-        this.logger = logger;
     }
     public void loginDashboard(){
         try{
@@ -26,6 +27,19 @@ public class Login {
             Locator button = page.locator("xpath = //button[@type='submit']");
             logger.info("Logged In Successfully");
             button.click();
+        }catch (Exception e){
+            logger.info("Test failure -------------------------------------> " + e.getMessage());
+            page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("FAILED_" + page.title() + ".png")));
+        }
+    }
+    public void logoutDashboard(){
+        try{
+            Locator usernameDropdown = page.locator("xpath = //div[@class='w-8 h-8 text-sm bg-blue-500 rounded-full flex items-center justify-center text-white font-medium ']");
+            usernameDropdown.click();
+            logger.info("Clicked on Logout Button");
+            page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Logout")).click();
+            page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get(page.title()+ ".png")));
+            logger.info("Screenshot Captured");
         }catch (Exception e){
             logger.info("Test failure -------------------------------------> " + e.getMessage());
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("FAILED_" + page.title() + ".png")));
