@@ -1,5 +1,6 @@
 package M32.setup;
 
+import M32.Page.Config;
 import com.microsoft.playwright.*;
 import java.util.logging.*;
 
@@ -29,7 +30,7 @@ public class SetUp {
             }
             if (browser == null) {
                 browser = playwright.chromium().launch(
-                        new BrowserType.LaunchOptions().setHeadless(false)
+                        new BrowserType.LaunchOptions().setHeadless(Config.headless)
                 );
             }
             return browser.newPage();

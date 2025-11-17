@@ -1,4 +1,4 @@
-package M32.TestCases;
+package M32.Page;
 
 import com.microsoft.playwright.Page;
 import java.nio.file.Paths;
@@ -9,13 +9,10 @@ public class Registration {
     public Registration(Page page) {
         this.page = page;
     }
+
     public void signup(){
         try{
             NewAccount register = new NewAccount(page);
-            register.fillingDetails();
-            CRMRegistration crm = new CRMRegistration(page);
-            crm.signUpCRM();
-            logger.info("Clicking on Sign up button...");
             register.fillingDetails();
             ChatAgentRegistration chatAgent = new ChatAgentRegistration(page);
             chatAgent.signUpChatAgent();
@@ -23,5 +20,11 @@ public class Registration {
             logger.info("Test failure -------------------------------------> " + e.getMessage());
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("FAILED_" + page.title() + ".png")));
         }
+    }
+    public void crmRegistration(){
+        NewAccount register = new NewAccount(page);
+        register.fillingDetails();
+        CRMRegistration crm = new CRMRegistration(page);
+        crm.signUpCRM();
     }
 }

@@ -1,4 +1,4 @@
-package M32.TestCases;
+package M32.Page;
 import java.util.Random;
 
 public class Helper {

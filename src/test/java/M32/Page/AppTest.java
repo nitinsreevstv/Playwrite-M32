@@ -1,4 +1,4 @@
-package M32.TestCases;
+package M32.Page;
 import com.microsoft.playwright.*;
 import M32.setup.SetUp;
 import java.nio.file.Paths;
@@ -16,6 +16,10 @@ public class AppTest
             contact.newContact();
             login.logoutDashboard();
             Registration register = new Registration(page);
+            NewAccount account = new NewAccount(page);
+            account.signUpButtonClick();
+            register.crmRegistration();
+            account.signUpButtonClick();
             register.signup();
             setup.closeBrowser();
         } catch (Exception e){

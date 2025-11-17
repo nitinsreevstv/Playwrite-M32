@@ -1,4 +1,4 @@
-package M32.TestCases;
+package M32.Page;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
@@ -17,8 +17,7 @@ public class Login {
     }
     public void loginDashboard(){
         try{
-            page.navigate(Config.URL);
-            logger.info("Landed on Website");
+            launchUrl();
             assertThat(page).hasTitle(Pattern.compile("Central - Home"));
             Locator emailFields = page.getByPlaceholder("Email");
             emailFields.fill(Config.LoginEmail);
@@ -44,5 +43,9 @@ public class Login {
             logger.info("Test failure -------------------------------------> " + e.getMessage());
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("FAILED_" + page.title() + ".png")));
         }
+    }
+    public void launchUrl(){
+        page.navigate(Config.URL);
+        logger.info("Landed on Website");
     }
 }

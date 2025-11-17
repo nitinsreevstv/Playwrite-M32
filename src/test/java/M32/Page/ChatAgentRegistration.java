@@ -1,10 +1,9 @@
-package M32.TestCases;
+package M32.Page;
 
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 
 import java.nio.file.Paths;
-import java.util.logging.Logger;
 
 import static M32.setup.SetUp.logger;
 

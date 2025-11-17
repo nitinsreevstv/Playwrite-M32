@@ -1,11 +1,8 @@
-package M32.TestCases;
+package M32.Page;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-
 import java.nio.file.Paths;
-import java.util.logging.Logger;
-
 import static M32.setup.SetUp.logger;
 
 public class NewAccount {
@@ -15,9 +12,6 @@ public class NewAccount {
     }
     public void fillingDetails(){
         try{
-            logger.info("Clicking on Sign up button...");
-            Locator signUpButton = page.getByText("Sign up");
-            signUpButton.click();
             Helper help = new Helper();
             logger.info("Filling basic info...");
             page.locator("#fullName").fill("Test User");
@@ -38,6 +32,10 @@ public class NewAccount {
             }
             throw e;
         }
-
+    }
+    public void signUpButtonClick(){
+        logger.info("Clicking on Sign up button...");
+        Locator signUpButton = page.getByText("Sign up");
+        signUpButton.click();
     }
 }

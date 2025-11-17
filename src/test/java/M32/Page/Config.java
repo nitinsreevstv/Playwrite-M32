@@ -1,4 +1,4 @@
-package M32.TestCases;
+package M32.Page;
 import io.github.cdimascio.dotenv.Dotenv;
 
 public class Config {
@@ -11,4 +11,5 @@ public class Config {
     public static final String CSVLocation = dotenv.get("CSVPath");
     public static final String UpdateEmail = dotenv.get("ContactEmail");
     public static final String Location = dotenv.get("Location");
+    public static final Boolean headless = Boolean.valueOf(dotenv.get("Headless"));
 }
